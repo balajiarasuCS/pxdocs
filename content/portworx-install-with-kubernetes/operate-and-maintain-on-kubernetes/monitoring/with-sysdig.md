@@ -28,7 +28,7 @@ In order to use Sysdig with Portworx, you must deploy both products onto your Ku
       ...
       prometheus:
         enabled: true
-        interval: 1
+        interval: 10
         process_filter:
           - include:
               process.cmdline: "px"
